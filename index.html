@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Ahrefs Bookmarklets</title>
+  <style>
+    :root{color-scheme:dark}
+    body{margin:0;font:16px/1.5 system-ui;background:#0b0f16;color:#e6edf3}
+    .wrap{max-width:980px;margin:0 auto;padding:48px 20px}
+    .card{background:#0f1623;border:1px solid #1f2a3a;border-radius:16px;padding:24px}
+    a.btn{display:inline-block;padding:10px 14px;border-radius:10px;border:1px solid #2b3b52;text-decoration:none;color:#e6edf3;background:#121b2b}
+    a.btn:hover{border-color:#3d5a7a}
+    code,pre{background:#0b1220;border:1px solid #1f2a3a;border-radius:12px}
+    pre{padding:14px;overflow:auto}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="card">
+
+      <h1>Ahrefs Bookmarklets</h1>
+      <p>Набор букмарклетов для быстрых действий в Ahrefs.</p>
+
+      <h2>1) Open Site Explorer Overview</h2>
+      <p>Открывает Ahrefs Site Explorer → Overview для текущего домена.</p>
+
+      <a class="btn"
+         href="javascript:var link='https://app.ahrefs.com/v2-site-explorer/overview?backlinksChartMode=metrics&backlinksChartPerformanceSources=domainRating%7C%7CurlRating&backlinksCompetitorsSource=%22UrlRating%22&chartGranularity=daily&chartInterval=twoYears&competitors=&countries=&country=all&generalChartMode=metrics&generalChartPerformanceSources=organicTraffic%7C%7CpaidTraffic%7C%7CrefDomains&generalChartTopPosition=top11_20%7C%7Ctop21_50%7C%7Ctop3%7C%7Ctop4_10%7C%7Ctop51&generalCompetitorsSource=%22OrganicTraffic%22&generalCountriesSource=organic-traffic&highlightChanges=30d&keywordsSource=all&mode=subdomains&organicChartMode=metrics&organicChartPerformanceSources=organicTraffic%7C%7CorganicTrafficValue&organicChartTopPosition=top11_20%7C%7Ctop21_50%7C%7Ctop3%7C%7Ctop4_10%7C%7Ctop51&organicCompetitorsSource=%22OrganicTraffic%22&organicCountriesSource=organic-traffic&overview_tab=general&target='+encodeURIComponent(location.hostname+location.pathname);window.open(link,'_blank');void(0);">
+        Run bookmarklet
+      </a>
+
+      <h2>Установка</h2>
+      <ol>
+        <li>Создай закладку в браузере</li>
+        <li>Вместо URL вставь код букмарклета</li>
+        <li>Открой нужный сайт и нажми закладку</li>
+      </ol>
+
+      <!-- ВОТ СЮДА ВСТАВЛЯЕМ БЛОК -->
+
+      <h2>Используется в работе</h2>
+
+      <p>
+        Данные букмарклеты используются во внутренних SEO-процессах
+        для анализа доменов, трафика и ссылочных профилей.
+      </p>
+
+      <div style="margin-top:12px;">
+        Сайт использующий этот инструмент —
+        <a class="btn"
+           href="https://kroppa.ru/"
+           target="_blank"
+           rel="noopener">
+           Kroppa.ru
+        </a>
+      </div>
+
+    </div>
+  </div>
+</body>
+</html>
